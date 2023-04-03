@@ -5,7 +5,7 @@
       "properties":{
          "name":{
             "type":"string",
-			"pattern": "^[a-zA-Z]+ [a-zA-Z]+$"
+			"pattern": "^[a-zA-ZА-Яа-я]+ [a-zA-ZА-Яа-я]+$"
          },
          "pnumber":{
             "type":"string",

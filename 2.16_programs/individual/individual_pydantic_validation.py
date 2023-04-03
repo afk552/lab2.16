@@ -10,7 +10,7 @@ from pydantic import BaseModel, constr, ValidationError
 
 
 def validate_json(json_data):
-    name_reg = r"^[a-zA-Z]+ [a-zA-Z]+$"
+    name_reg = r"^[a-zA-ZА-Яа-я]+ [a-zA-ZА-Яа-я]+$"
     pnumber_reg = (
         r"^(\+7|7|8)?[\s\-]?\(?[489][0-9]{2}\)?[\s\-]"
         r"?[0-9]{3}[\s\-]?[0-9]{2}[\s\-]?[0-9]{2}$"
